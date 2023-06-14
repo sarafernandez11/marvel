@@ -8,6 +8,7 @@ If you're using Chrome or Firefox you can see the APP hosted [here](https://sara
 ### To run it locally
 You must have Node.js installed and up to date. Then, just download or clone this repo and, once inside the project directory run the following commands:
 ```
+npm install
 npm run build
 serve -s build
 ```
