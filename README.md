@@ -1,4 +1,4 @@
-# MARVEL CHARACTER APP
+# MARVEL CHARACTERS APP
 
 This is a React web app that contains a list with information from all the Marvel characters, fetched from the official Marvel API.
 
