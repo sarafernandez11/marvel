@@ -13,3 +13,6 @@ npm run build
 serve -s build
 ```
 You should now type `localhost:3000` in your browser and you'll be able to see the site up and running! 
+
+### Notice
+If the page appears white and an error 429 is thrown on the requests it can be because there have been too many requests made that day, since it is limited to 3000. 
