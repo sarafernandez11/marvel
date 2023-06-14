@@ -1,3 +1,13 @@
+h1 {
+  font-size: 3em;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+
 .id {
   color: gray;
   margin-bottom: 0px;
@@ -18,7 +28,33 @@ img {
   font-family: "Oswald";
 }
 
+.button {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .button:hover {
   background-color: whitesmoke;
   color: red;
+}
+
+.dialogContainer {
+  padding-top: 2em;
+  background-color: black;
+  color: white;
+}
+
+.header {
+  padding-right: 3em;
+  padding-left: 3em;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  margin-bottom: 3em;
+  background-color: black;
+  color: white;
+}
+
+.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root {
+  font-family: "Oswald";
 }

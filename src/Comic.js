@@ -21,7 +21,7 @@ const Comic = ({comic})  => {
   },[comic.resourceURI])
 
   return (
-    <Grid item xs={3}>
+    <Grid item sm={3} xs={6}>
       <img style={{width: "80%", height: "auto"}} src={imageSrc} alt={comic.name} loading="lazy" />
       <h6>{comic.name}</h6>
     </Grid>

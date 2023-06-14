@@ -16,7 +16,7 @@ const Character = ({character})  => {
 
   return (
     <Grid item md={2} sm={4} xs={6} sx={{mt:2}}>
-      <ButtonBase className="button" sx={{width: "100%", m: 0, p: 0}} onClick={() => {setMoreInfo(!moreInfo)}}>
+      <ButtonBase className="button" onClick={() => {setMoreInfo(!moreInfo)}}>
       <Grid container spacing={2}>
         <Grid item xs={12} >
           <img style={{width: "90%", height:"auto", aspectRatio:1/1.5}} src={character.thumbnail.path + "." + character.thumbnail.extension} alt={character.name} loading="lazy" />
@@ -27,8 +27,8 @@ const Character = ({character})  => {
         </Grid>
       </Grid>
       </ButtonBase>
-      <Dialog className="dialog" open={moreInfo} onClose={handleClose} maxWidth="lg" sx={{width:"80%"}}>
-        <Container sx={{backgroundColor: "black", color: "white"}}>
+      <Dialog className="dialog" open={moreInfo} onClose={handleClose} maxWidth="md">
+        <Container className="dialogContainer">
         <Grid container spacing={2}>
           <Grid item xs={5} >
             <img style={{width: "100%", height: "auto"}} src={character.thumbnail.path + "." + character.thumbnail.extension} alt={character.name} loading="lazy" />

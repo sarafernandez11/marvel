@@ -47,7 +47,7 @@ const App = ()  => {
 
   return (
     <div className="App">
-      <Box justifyContent="left" sx={{width: "100%", px: 4, py: 2, mb: 4, backgroundColor: "black", color: "white"}}>
+      <Box justifyContent="left" className="header">
         <h1>MARVEL CHARACTER LIST</h1>
       </Box>
       <Container sx={{width: "100%"}}>
@@ -57,7 +57,7 @@ const App = ()  => {
           )}
         </Grid>
         <Box display="flex" justifyContent="center" sx={{my: 4}}>
-          <Pagination count={pageNum} page={currentPage} onChange={fetchPage}/>
+          <Pagination className="pagination" sx={{fontFamily:"Oswald"}} count={pageNum} page={currentPage} onChange={fetchPage}/>
         </Box>
       </Container>
     </div>
