@@ -1,8 +1,8 @@
 import md5 from 'md5';
 import axios from 'axios';
 
-const publicKey = "6d8cf703a63832a3529c074b5c7cddfb";
-const privateKey = "583f58ce9acbe8137c7f6a71b4dfc00b53d102c5";
+const publicKey = "f8198526bff1d104558f97c5e24ea83a";
+const privateKey = "ba6145edc54ea329c16c359dde6699f205ed635c";
 
 
 const authURL = (apiURL) => {
