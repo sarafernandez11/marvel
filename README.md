@@ -15,4 +15,9 @@ serve -s build
 You should now type `localhost:3000` in your browser and you'll be able to see the site up and running! 
 
 ### Notice
-If the page appears white and an error 429 is thrown on the requests it can be because there have been too many requests made that day, since it is limited to 3000. 
+If the page appears white and an error 429 is thrown when making requests to the API it can be because there have been too many requests made that day, since it is limited to 3000. 
+In that case please change the keys in api.js to the following:
+```
+const publicKey = "6d8cf703a63832a3529c074b5c7cddfb"
+const privatKey = "583f58ce9acbe8137c7f6a71b4dfc00b53d102c5"
+```
